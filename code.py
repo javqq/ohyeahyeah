@@ -1,6 +1,13 @@
-def main():
-    return "YEYEYEYEYE"
-main()
-
-print("Hello world!")
-print("HEllo!!!!!!")
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    lists =[]
+    lists1=[]
+    for x in range(x+1):
+        for y in range(y+1):
+            for z in range(z+1):
+                if x+y+z != n:
+                    lists.append([x,y,z])
+print(lists)
